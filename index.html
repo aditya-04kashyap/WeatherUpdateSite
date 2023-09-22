@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+
+</head>
+<body class=" h-screen bg-gradient-to-br from-sky-800 to-sky-500" >
+    <div class="msg text-yellow-200 font-mono font-extrabold text-4xl  "><center>Check out the latest Weather Updates!</center></div>
+    
+    <div class=" bg-gradient-to-br from-cyan-100 to-sky-200 h-auto  w-80 sm:w-3/6 flex-col place-content-center   rounded-2xl mt-10 m-auto sm: mb-10 shadow-2xl shadow-cyan-100 ">
+        <div >
+            
+            <center>
+            <input  id="I1" type="search" placeholder="Enter the City" class="text-lg font-mono rounded-xl p-1 shadow-2xl bg-blue-200  mt-6  ml-10   pl-3 w-3/6 placeholder:text-gray-600 placeholder:text-sm m-8 mr-3 sm:mb-12 outline-dotted outline-blue-700 hover:scale-105">
+            <button id="I2" class=" bg-blue-200 h-8 rounded-full w-10 fa-solid fa-magnifying-glass-location  hover:scale-125 m-auto outline-dotted outline-blue-700"></button>
+            </center>
+        </div>
+        <div class="" id="I8">
+                <center><img id="I3"  src="default.png" alt="cloudy" class="   rounded-3xl w-3/6 h-3/5 "></center>
+                <div class="mt-4"> 
+                    <center><p id="I4" class="text-zinc-700  font-extrabold font-mono text-3xl">No data</p></center>
+                    <center><p id="I5" class=" text-zinc-700 text-3xl font-extrabold font-mono">No data</p></center>
+                </div>
+                <div class="flex justify-between mt-4 ml-4 mr-4">
+                    <div >
+                        <i class="fa-solid fa-droplet text-zinc-700 sm:text-xl">  H u m i d i t y</i>
+                        <p id="I6" class="text-lg sm:text-xl font-mono font-bold text-zinc-700">No data</p>
+                    </div>
+                    <div >
+                        <i class="fa-solid fa-wind  text-zinc-700 sm:text-xl"> W I N D</i>
+                        <p id="I7" class=" sm:text-xl text-lg font-mono font-bold text-zinc-700">No data</p>
+                    </div>
+                </div>
+        </div>
+
+        
+    </div>
+    
+    <script src="script1.js"></script>
+    <script src="https://kit.fontawesome.com/39d8b5047a.js" crossorigin="anonymous"></script>
+</body>
+</html>
